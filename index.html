@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kim — Observe → hide → recall</title>
+    <meta
+      name="description"
+      content="Kim is a 3-minute daily memory practice. Observe a tray, hide it, recall. Spaced cards. Blurt the gaps. Honest metrics — not photographic memory."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Public releases</p>
+        <h1>Kim</h1>
+        <p class="tag">Observe → hide → recall.</p>
+        <p class="lede">
+          Three minutes a day for the senses behind memory: visual detail, spaced
+          retention, and active recall. We show what you remembered — not a fake IQ.
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" href="#releases">Get the latest release</a>
+          <a class="btn ghost" href="#loop">See the loop</a>
+        </div>
+      </div>
+      <div class="tray" aria-hidden="true">
+        <div class="tray-bed">
+          <span>🔑</span><span>✏️</span><span>🍎</span><span>🧭</span>
+          <span>🐚</span><span>🕯️</span><span>📎</span><span>🎲</span>
+        </div>
+        <div class="cloth" id="cloth"></div>
+      </div>
+    </header>
+
+    <section id="loop">
+      <h2>The daily loop</h2>
+      <ol class="steps">
+        <li>
+          <strong>Observe &amp; Recall</strong>
+          <span>Study a tray. It hides. You name what was there.</span>
+        </li>
+        <li>
+          <strong>Smart Cards</strong>
+          <span>Leitner boxes — hard cards return sooner.</span>
+        </li>
+        <li>
+          <strong>Blurt &amp; Check</strong>
+          <span>Free recall, then see every gap.</span>
+        </li>
+      </ol>
+    </section>
+
+    <section id="honest">
+      <h2>Honest about the science</h2>
+      <p>
+        Spaced practice and retrieval practice reliably improve memory for what you
+        practice.
+        <a href="https://pubmed.ncbi.nlm.nih.gov/16719566/">Cepeda et al., 2006</a> ·
+        <a href="https://journals.sagepub.com/doi/10.1111/j.1467-9280.2006.01693.x"
+          >Roediger &amp; Karpicke, 2006</a
+        >.
+      </p>
+      <p>
+        <strong>Photographic memory is largely a myth.</strong>
+        <a href="https://www.scientificamerican.com/article/is-there-such-a-thing-as/"
+          >Scientific American</a
+        >.
+        Kim never promises IQ boosts or dementia prevention.
+      </p>
+    </section>
+
+    <section id="score">
+      <h2>Progress you can feel</h2>
+      <div class="scorecard">
+        <p class="big"><span id="count">0</span><small>/16</small></p>
+        <p class="delta">Up from 9 yesterday</p>
+        <p class="fine">Shareable. Concrete. No fake percentiles.</p>
+      </div>
+    </section>
+
+    <section id="free">
+      <h2>Free forever vs Pro</h2>
+      <div class="table">
+        <div>
+          <h3>Free forever</h3>
+          <ul>
+            <li>Full daily 3-mode loop</li>
+            <li>Streaks + 1 freeze / week</li>
+            <li>14-day history</li>
+            <li>No ads</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Kim Pro</h3>
+          <ul>
+            <li>Unlimited extra rounds</li>
+            <li>Full history &amp; export</li>
+            <li>Challenge packs</li>
+            <li>Custom trays (coming)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="releases">
+      <h2>Releases</h2>
+      <p class="lede-sm">
+        This public repo ships <strong>release notes and downloads</strong> — not the
+        production source. Source stays private.
+      </p>
+      <article class="release">
+        <h3>v0.1.0 — First public cut</h3>
+        <p>Daily loop · Paper Tray UI · Local-first web build · Android scaffold</p>
+        <p class="meta">See <a href="CHANGELOG.md">CHANGELOG.md</a> for details.</p>
+      </article>
+    </section>
+
+    <section id="privacy">
+      <h2>Privacy</h2>
+      <p>Offline-first. Practice data stays on your device. No account required to train.</p>
+    </section>
+
+    <footer>
+      <p><strong>Kim</strong> — Observe → hide → recall.</p>
+      <p class="fine">Not a medical device. Not an IQ test. Not therapy.</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
