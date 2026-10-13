@@ -6,6 +6,7 @@
 - MistWash observe→recall; Keeper mock pass + Privacy from Collection
 - **Glass Greenhouse** and **Salt Library** painterly dioramas (far/mid/mist)
 - Store stills + feature graphic in [`store/`](./store/) for Play listing draft
+- Android APK attached to GitHub Release `v0.6.0` (`Mothlight-0.6.0-android.apk`)
 - Analytics instrumentation (mock sink); dusk reminder + share-a-lantern (device builds)
 
 ## 0.5.0 — Mothlight Archive (generated art)
