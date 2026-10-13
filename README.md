@@ -1,8 +1,8 @@
-# Kim — Releases
+# Mothlight Archive — Releases
 
-**Observe → hide → recall.**
+**Keep the shelves from fading.**
 
-This is the **public releases** repository for Kim.
+This is the **public releases** repository for Mothlight Archive (Kim).
 
 | Repository | Visibility | Contents |
 |------------|------------|----------|
