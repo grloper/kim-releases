@@ -7,7 +7,9 @@ This is the **public releases** repository for Kim.
 | Repository | Visibility | Contents |
 |------------|------------|----------|
 | Production source | **Private** | Full app source (web + Android), research, internal docs |
-| **This repo** | **Public** | Release notes, branded landing, download hooks — **no production source** |
+| **[This repo](https://github.com/grloper/kim-releases)** | **Public** | Release notes, branded landing, download hooks — **no production source** |
+
+**Live landing:** [grloper.github.io/kim-releases](https://grloper.github.io/kim-releases/)
 
 ---
 
