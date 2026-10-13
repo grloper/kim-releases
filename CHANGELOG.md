@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.1 — Play Console prep
+- Privacy policy URL for Play (`PRIVACY.html` / jsDelivr)
+- Public Play checklist (`PLAY.md`) — listing stills, closed-testing notes
+- Debug APK `v0.6.1` (same Habit OS loop as 0.6.0; store packaging)
+- Production AAB stays private — requires owner keystore (not in this repo)
+
 ## 0.6.0 — Habit OS + Keeper/Privacy + Glass/Salt art
 - Silent onboarding → Enter the Archive
 - Nights-lit streak celebration + lantern-oil freeze
