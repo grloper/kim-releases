@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.6.2 — Quiet daily practice + skill signals
+- Ambience off by default; pauses when the app backgrounds; opt-in in Collection
+- Quieter SFX; shorter ~90s Restore (6 relics · 25s observe · 3 Thread Cards)
+- Ink Whisper skip for a faster seal
+- Results + Collection show scene encoding / spaced retrieval / free recall
+- Home CTA: Restore tonight · ~90s
+
 ## 0.6.1 — Play Console prep
 - Privacy policy URL for Play (`PRIVACY.html` / jsDelivr)
 - Public Play checklist (`PLAY.md`) — listing stills, closed-testing notes
