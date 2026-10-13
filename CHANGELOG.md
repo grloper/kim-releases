@@ -1,22 +1,15 @@
 # Changelog
 
-All notable **public releases** of Kim are documented here.
-Production source lives in the private repository.
+## 0.5.0 — Mothlight Archive (generated art)
+- Original generated Luma character (idle / cheer / worry) with Lottie motion
+- Illustrated Dream Shelf dioramas with parallax plates (Nursery, Tide, Clock)
+- Authored relic icon set, UI frame, night backdrop, app icon
+- Juice: reward flights, shake, particles, SFX + ambient, haptics
+- Meta: unlockable shelves, relic collection, Luma growth
+- Android APK attached to GitHub Release `v0.5.0`
 
-## [0.2.0] — 2026-10-13
+## 0.3.0 — Mothlight Archive (engineering)
+- Fantasy skin over memory loop (withheld from public “frontier” claim)
 
-### Changed
-- **Signal Desk** redesign (Material 3 tokens, dark mode, edge-to-edge)
-- Observe ring timer + solid Cover CTA
-- Free-text Blurt (no tap grid)
-- Results score delta copy fixed
-- Vector glyphs; card flip; equal grade buttons
-
-### Android
-- `Kim-0.2.0-android.apk` on GitHub Releases
-
-## [0.1.0] — 2026-10-13
-
-### Added
-- First installable Android APK preview
-- Daily loop scaffold
+## Earlier
+- Signal Desk / prior previews — see private production history
