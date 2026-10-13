@@ -77,6 +77,13 @@ h1 {
   font-size: 1.05rem;
 }
 
+.platform-note {
+  max-width: 28rem;
+  margin: 0.75rem 0 0;
+  font-size: 0.9rem;
+  color: var(--graphite);
+}
+
 .cta-row {
   display: flex;
   flex-wrap: wrap;

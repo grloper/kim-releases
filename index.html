@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Kim — Observe → hide → recall</title>
+    <title>Kim — Android app · Observe → hide → recall</title>
     <meta
       name="description"
-      content="Kim is a 3-minute daily memory practice. Observe a tray, hide it, recall. Spaced cards. Blurt the gaps. Honest metrics — not photographic memory."
+      content="Download Kim for Android. A 3-minute daily memory practice — tray recall, spaced cards, blurting. Honest metrics, local-first."
     />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,13 +24,22 @@
         <h1>Kim</h1>
         <p class="tag">Observe → hide → recall.</p>
         <p class="lede">
-          Three minutes a day for the senses behind memory: visual detail, spaced
-          retention, and active recall. We show what you remembered — not a fake IQ.
+          The <strong>phone app</strong> is Android (APK below). This page is not the app — it is
+          where you download installs and read release notes. Source code stays private.
         </p>
         <div class="cta-row">
-          <a class="btn primary" href="#releases">Get the latest release</a>
-          <a class="btn ghost" href="#loop">See the loop</a>
+          <a
+            class="btn primary"
+            id="download-android"
+            href="https://github.com/grloper/kim-releases/releases/latest"
+            >Download for Android</a
+          >
+          <a class="btn ghost" href="#install">How to install</a>
         </div>
+        <p class="fine platform-note">
+          <strong>iPhone:</strong> not in v0.1.0 — needs TestFlight / App Store (coming). Web preview
+          is for developers only.
+        </p>
       </div>
       <div class="tray" aria-hidden="true">
         <div class="tray-bed">
@@ -40,6 +49,27 @@
         <div class="cloth" id="cloth"></div>
       </div>
     </header>
+
+    <section id="install">
+      <h2>Install on Android</h2>
+      <ol class="steps">
+        <li>
+          <strong>Download the APK</strong>
+          <span
+            >Tap <em>Download for Android</em> (GitHub Releases — file
+            <code>Kim-0.1.0-android.apk</code>).</span
+          >
+        </li>
+        <li>
+          <strong>Allow install</strong>
+          <span>When prompted, allow your browser or Files app to install unknown apps.</span>
+        </li>
+        <li>
+          <strong>Open Kim</strong>
+          <span>Complete onboarding — first real tray in under five minutes.</span>
+        </li>
+      </ol>
+    </section>
 
     <section id="loop">
       <h2>The daily loop</h2>
@@ -112,15 +142,14 @@
     </section>
 
     <section id="releases">
-      <h2>Releases</h2>
-      <p class="lede-sm">
-        This public repo ships <strong>release notes and downloads</strong> — not the
-        production source. Source stays private.
-      </p>
+      <h2>Release history</h2>
       <article class="release">
-        <h3>v0.1.0 — First public cut</h3>
-        <p>Daily loop · Paper Tray UI · Local-first web build · Android scaffold</p>
-        <p class="meta">See <a href="CHANGELOG.md">CHANGELOG.md</a> for details.</p>
+        <h3>v0.1.0 — Android preview</h3>
+        <p>Installable Android APK · daily loop · Paper Tray · local-only data</p>
+        <p class="meta">
+          <a href="https://github.com/grloper/kim-releases/releases/tag/v0.1.0">Download v0.1.0</a>
+          · <a href="CHANGELOG.md">CHANGELOG</a>
+        </p>
       </article>
     </section>
 
