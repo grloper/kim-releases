@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.6.0 — Habit OS + Keeper/Privacy
+- Silent onboarding → Enter the Archive
+- Nights-lit streak celebration + lantern-oil freeze
+- MistWash observe→recall; Keeper mock pass + Privacy from Collection
+- Two new shelf slots (Glass Greenhouse, Salt Library) — placeholder art until next pack
+- Analytics instrumentation (mock sink)
+
 ## 0.5.0 — Mothlight Archive (generated art)
 - Original generated Luma character (idle / cheer / worry) with Lottie motion
 - Illustrated Dream Shelf dioramas with parallax plates (Nursery, Tide, Clock)
