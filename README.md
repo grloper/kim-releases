@@ -9,7 +9,9 @@ This is the **public releases** repository for Kim.
 | Production source | **Private** | Full app source (web + Android), research, internal docs |
 | **[This repo](https://github.com/grloper/kim-releases)** | **Public** | Release notes, branded landing, download hooks — **no production source** |
 
-**Live landing:** [grloper.github.io/kim-releases](https://grloper.github.io/kim-releases/)
+**Live landing:** [grloper.github.io/kim-releases](https://grloper.github.io/kim-releases/) · [jsDelivr (no CI)](https://cdn.jsdelivr.net/gh/grloper/kim-releases@main/index.html)
+
+**No CI/CD** — this repo is static only. GitHub Actions is disabled so release pushes do not consume Actions minutes.
 
 ---
 
