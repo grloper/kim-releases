@@ -15,15 +15,12 @@ This is the **public releases** repository for Mothlight Archive (Kim).
 
 ---
 
-## What is Kim?
+## What is Mothlight?
 
-A three-minute daily memory practice:
+A ~3 minute nightly fantasy session: restore fading Dream Shelf dioramas with Luma.
+Under the fantasy — observe→recall, spaced Thread Cards, free-recall Ink Whisper.
 
-1. **Observe & Recall** — Kim’s Game tray (watch → hide → remember)
-2. **Smart Cards** — Leitner spaced repetition
-3. **Blurt & Check** — free recall, then see the gaps
-
-We measure **on-task** gains (“14 objects, up from 9”).  
+Archive Score tracks practice on Mothlight scenes.  
 We do **not** sell photographic memory, IQ boosts, or medical claims.
 
 ---
@@ -31,6 +28,8 @@ We do **not** sell photographic memory, IQ boosts, or medical claims.
 ## Latest release
 
 See [CHANGELOG.md](./CHANGELOG.md) and [GitHub Releases](../../releases) (when published).
+
+Play listing stills (Glass Greenhouse + Salt Library, feature graphic): [`store/`](./store/).
 
 | Channel | Status |
 |---------|--------|

@@ -1,11 +1,12 @@
 # Changelog
 
-## 0.6.0 — Habit OS + Keeper/Privacy
+## 0.6.0 — Habit OS + Keeper/Privacy + Glass/Salt art
 - Silent onboarding → Enter the Archive
 - Nights-lit streak celebration + lantern-oil freeze
 - MistWash observe→recall; Keeper mock pass + Privacy from Collection
-- Two new shelf slots (Glass Greenhouse, Salt Library) — placeholder art until next pack
-- Analytics instrumentation (mock sink)
+- **Glass Greenhouse** and **Salt Library** painterly dioramas (far/mid/mist)
+- Store stills + feature graphic in [`store/`](./store/) for Play listing draft
+- Analytics instrumentation (mock sink); dusk reminder + share-a-lantern (device builds)
 
 ## 0.5.0 — Mothlight Archive (generated art)
 - Original generated Luma character (idle / cheer / worry) with Lottie motion
