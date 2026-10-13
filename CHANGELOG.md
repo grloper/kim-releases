@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.0 — Practice desk
+- Flash Glance + Order Chain mini-games (optional; ~20–30s)
+- Practice sparks — competence currency that does not burn nights-lit
+- Home / Collection entry to Practice desk
+- Psychology: habit anchor + skill variety (Duolingo × Elevate pattern)
+
 ## 0.6.2 — Quiet daily practice + skill signals
 - Ambience off by default; pauses when the app backgrounds; opt-in in Collection
 - Quieter SFX; shorter ~90s Restore (6 relics · 25s observe · 3 Thread Cards)
